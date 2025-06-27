@@ -203,9 +203,7 @@ async def plan(client, message):
         [
             [InlineKeyboardButton("🔹 Buy Basic", callback_data="buy_basic")],
             [InlineKeyboardButton("🔸 Buy Medium", callback_data="buy_medium")],
-            [InlineKeyboardButton("🔶 Buy Pro", callback_data="buy_pro")],
-            [InlineKeyboardButton("📜 See Terms", callback_data="see_terms")],
-            [InlineKeyboardButton("💬 Contact Now", url="https://t.me/sonuporsa")],
+            [InlineKeyboardButton("🔶 Buy Pro", callback_data="buy_pro")],      
         ]
     )
 
@@ -229,8 +227,6 @@ async def see_plan(client, callback_query):
             [InlineKeyboardButton("🔹 Buy Basic", callback_data="buy_basic")],
             [InlineKeyboardButton("🔸 Buy Medium", callback_data="buy_medium")],
             [InlineKeyboardButton("🔶 Buy Pro", callback_data="buy_pro")],
-            [InlineKeyboardButton("📜 See Terms", callback_data="see_terms")],
-            [InlineKeyboardButton("💬 Contact Now", url="https://t.me/sonuporsa")],
         ]
     )
 
